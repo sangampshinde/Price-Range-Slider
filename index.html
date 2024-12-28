@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price Range Slider</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Price Range Slider</h1>
+        <div class="slider-container">
+            <h5>Minimum Price</h5>
+            <input type="range" id="minRange" min="0" max="1000" value="100" step="1">
+            <h5>Maximum Price</h5>
+            <input type="range" id="maxRange" min="0" max="1000" value="900" step="1">
+            <div class="slider-values">
+                <span>$</span>
+                <input type="number" id="minValue" value="100" min="0" max="1000">
+                <span>$</span>
+                <input type="number" id="maxValue" value="900" min="0" max="1000">
+            </div>
+        </div>
+    </div>
+<script src="./script.js"></script>
 </body>
 </html>
