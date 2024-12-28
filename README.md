@@ -10,7 +10,7 @@ A simple and interactive price range slider with minimum and maximum input field
 
 ## Demo
 
-<a href='https://sangampshinde.github.io/Price-Range-Slider-with-Min-Max-/'>Project Demo</a>
+<a href='https://sangampshinde.github.io/Price-Range-Slider/'>Project Demo</a>
 
 ## Technologies Used
 
